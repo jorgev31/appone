@@ -1,7 +1,8 @@
 Appone::Application.routes.draw do
   
   root to: "pages#home"
-  get "about" => "pages#about"
+  get "about" => "pages#about" # creates about path
+  get "home" => "pages#home" #creates home path
 
 
   # The priority is based upon order of creation:
