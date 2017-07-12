@@ -21,6 +21,9 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'bootstrap-sass', '~> 2.3.1.1' #NOTE: issure installing gem with bundle, 
+					 #by adding version number, succesful install.
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
